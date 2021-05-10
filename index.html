@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a foto?</title>
+    <link rel="stylesheet" href="nasa.css">
+    <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.2.2/dist/flickity.css">
+    <link rel="stylesheet" href="reset.css">
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="carousel">
+    
+        <img id="foto" src="./imagens/pexels-miriam-espacio-110854.jpg">
+        <img id="foto" src="./imagens/pexels-miriam-espacio-2694037.jpg">
+        <img id="foto" src="./imagens/pexels-pixabay-2150.jpg">
+        <img  id="foto" src="./imagens/pexels-pixabay-220201.jpg">
+        
+    
+    </div>
+
+    <div id="texto">
+        <h1>O universo e suas maravilhas!</h1>
+        <p>Selecione uma data e veja pelos olhos da Nasa!</p>
+        <p>Mas, atenção, a sua escolha deve ser a partir da data de 16/06/1995. Preparado para explorar o universo??</p>
+    </div>
+
+    <div class="procurar">
+        <input type="date" id="data">
+        <input type="button" id="enviar" value="Enviar" onclick="call()">
+        <p id="descricao"></p>
+        <img id="spacePic" src="" alt="">
+    </div>
+
+    <footer>@camilatrizotto</footer>
+    
+    <script src="nasa.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background: rgb(216, 173, 173);
+   
+    
+}
+
+#texto{
+background: rgb(221, 198, 198);
+border-radius: 20px;
+padding: 20px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px white;
+text-align: center;
+margin-top: 35px;
+font: normal 12pt italic;
+
+}
+
+#foto{
+    width: 100%;
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.procurar{
+
+background: white;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+margin-top: 15px;
+
+}
+
+#descricao {
+
+    font: normal 12pt italic;
+}
+
+#spacePic{
+
+border-radius: 10px;
+padding: 20px;
+width: 450px;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    
+}
